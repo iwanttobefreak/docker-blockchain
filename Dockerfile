@@ -1,6 +1,6 @@
 FROM debian
 RUN apt-get update && \
-    apt-get install -y wget python-pip sqlite3 libsqlite3-dev python-dev python-pip git && \
+    apt-get install -y wget python-pip sqlite3 libsqlite3-dev python-dev python-pip git vi && \
     pip install Crypto && \
     pip install --upgrade pip && \
     pip install pycrypto
